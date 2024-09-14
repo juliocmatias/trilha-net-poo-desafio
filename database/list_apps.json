@@ -1,0 +1,46 @@
+{
+  "nokia_apps": [
+    {
+      "nome": "WhatsApp",
+      "tamanho": 30
+    },
+    {
+      "nome": "Opera Mini",
+      "tamanho": 4
+    },
+    {
+      "nome": "Facebook Lite",
+      "tamanho": 2
+    },
+    {
+      "nome": "Google Maps",
+      "tamanho": 25
+    },
+    {
+      "nome": "Telegram",
+      "tamanho": 20
+    }
+  ],
+  "iphone_apps": [
+    {
+      "nome": "Instagram",
+      "tamanho": 150
+    },
+    {
+      "nome": "TikTok",
+      "tamanho": 250
+    },
+    {
+      "nome": "Spotify",
+      "tamanho": 120
+    },
+    {
+      "nome": "Snapchat",
+      "tamanho": 200
+    },
+    {
+      "nome": "YouTube",
+      "tamanho": 180
+    }
+  ]
+}
