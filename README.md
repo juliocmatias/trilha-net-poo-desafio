@@ -20,3 +20,27 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Resposta
+
+Na Classe Smartphone foram implementado as propriedades de acordo com o diagrama proposto do desafio, assim como ser passados os parâmetros para o seu construtor
+
+Foi implementada também validação na propriedade Memória.
+
+Para me desafiar implementei o método PegarAplicativos, para ler o arquivo "list_apps.json" da pasta "database", para que de acordo com dispositivo seja retornado uma lista de aplicativo já pre-estabelecido.
+
+Foram implementadas as classes na pastas models: App, Dispositivo, além das já criadas Iphone, Nokia e Smartphone. 
+
+- App:
+  - Criada como modelo para representar um objeto app quando feita a DeserializeObject.
+
+- Dispositivo 
+    - Modelo para representar o objeto retornado pelo arquivo "list_apps.json", com os dispositivos e suas respectiva lista de aplicativo quando feita a DeserializeObject.
+
+- Nokia:
+    - Classe que herda de Smartphone e reescreve o método InstalarAplicativo de acordo com sua especificação.
+    - no construtor foi chamado o método: PegarAplicativos, assim populando à lista de aplicativo para seu modelo especifico;
+
+- Iphone:
+    - Classe que herda de Smartphone e reescreve o método InstalarAplicativo de acordo com sua especificação.
+    - no construtor foi chamado o método: PegarAplicativos, assim populando à lista de aplicativo para seu modelo especifico;
